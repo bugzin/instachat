@@ -1,0 +1,113 @@
+html{
+	height:100%;
+	width:100%;
+}
+
+body{
+	width:100%;
+}
+
+#container{
+	width:960px;
+	margin:0 auto;
+	padding-bottom:10px;
+	background-color:whiteSmoke;
+	text-align:center;
+
+}
+
+#header > div{
+	width:940px;
+	height: 80px;
+	padding-left:10px;
+}
+.rooms > div > div{
+	color:##666;
+	font-weight:bold;
+/*	background-color:#CCC;*/
+	margin:20px;
+	padding:20px;
+	background: -webkit-gradient(linear,0% 40%,0% 70%,from(whiteSmoke),to(#F1F1F1));
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:5px;
+}
+.rooms .selected{
+	border:2px solid #DD4B39;
+}
+#room{
+	margin:20px;
+	background-color:#CCC;
+	height:480px;
+	border-radius:5px;
+	text-align:left;
+}
+#room > div{
+	
+}
+#room div.col{
+	margin:10px;
+	height:380px;
+	background-color:#FFF;
+	border:1px solid #AEAEAE;
+}
+
+#room div.messages{
+	margin-right:0;
+}
+
+#room div#message{
+	padding-left:10px;
+}
+#room .text{
+	padding-right:4px;
+}
+#room textarea{
+	width:100%;
+	height:60px;
+	border:1px solid #AEAEAE;
+}
+#room .button{
+	padding:5px 15px;
+}
+#room input{
+	background:-webkit-gradient(linear,left top,left bottom,from(#DD4B39),to(#D14836));
+	color:#FFF;
+	width:100%;
+	height:50px;
+	border:1px solid #AEAEAE;
+}
+
+#login {
+
+	padding-top:100px;
+}
+#handle{
+	border:1px solid #CCC;
+	width:300px;
+	height:40px;
+	border-radius:10px;
+}
+div.handle{
+	border:1px solid #CCC;
+	border-radius: 10px;
+	margin:20px;
+	padding:20px;
+}
+
+h1{
+	font-size: 24px;
+	font-weight:bold;
+}
+#login .header{
+	text-align:left;
+	padding:20px 20px 0 20px;
+}
+
+div.button:hover{
+	cursor:pointer;
+	border:2px solid #DD4839;
+}
+#send-btn{
+	border:2px solid #DD4839;
+	margin:5px 10px;
+}
